@@ -72,13 +72,28 @@
 // let totalBill = unit*bill
 // console.log("the total bill is: " + totalBill)
 
-let age= 10
-if(age<18){
-    console.log("you are a minor")
-}    
-else if(age>=18 && age<60){
-    console.log("you are an adult")
-}    
-else{
-     console.log("you are a senior citizen")
+// let age= 10
+// if(age<18){
+//     console.log("you are a minor")
+// }    
+// else if(age>=18 && age<60){
+//     console.log("you are an adult")
+// }    
+// else{
+//      console.log("you are a senior citizen")
+// }
+
+const day = new Date().getDay()
+console.log(day)
+switch(day){
+     case 0:
+          console.log("today is sunday")
+          break;
+     case 1:
+          console.log("today is monday")
+          break;
+     case 2:
+          console.log("today is tuesday")
+          break;
+          
 }
